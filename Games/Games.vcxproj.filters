@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{f56ad462-8c4b-4d22-bc8a-b7be55572b9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Player.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Walk.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Ball.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Grid.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Background.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Dot.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Tiles.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\PlayerBasic.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\MinimalTileset.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Level.txt">
+      <Filter>Assets</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Assets\Cornerstone.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+    <Font Include="Assets\Manifesto.ttf">
+      <Filter>Assets</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Song.wav">
+      <Filter>Assets</Filter>
+    </Media>
+    <Media Include="Assets\Second.wav">
+      <Filter>Assets</Filter>
+    </Media>
+    <Media Include="Assets\Third.wav">
+      <Filter>Assets</Filter>
+    </Media>
+    <Media Include="Assets\Bounce.wav">
+      <Filter>Assets</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Level1.csv">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\Map.csv">
+      <Filter>Assets</Filter>
+    </None>
+  </ItemGroup>
+</Project>

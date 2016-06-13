@@ -1,0 +1,573 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0053)http://ludumdare.com/compo/ludum-dare-35/?action=edit -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"><head profile="http://gmpg.org/xfn/11"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Ludum Dare 35 | Ludum Dare</title>
+<meta name="generator" content="WordPress 4.4.2">  
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@ludumdare">
+<meta name="twitter:title" content="Ludum Dare">
+<meta name="twitter:description" content="The worlds largest online game jam event. Join us every April, August, and December.">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="./Ludum Dare 35 _ Ludum Dare_files/style.css" type="text/css" media="screen">
+<link rel="alternate" type="application/rss+xml" title="Ludum Dare RSS Feed" href="http://ludumdare.com/compo/feed/">
+<link rel="pingback" href="http://ludumdare.com/compo/xmlrpc.php">
+<link href="./Ludum Dare 35 _ Ludum Dare_files/css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="Ludum Dare » Feed" href="http://ludumdare.com/compo/feed/">
+<link rel="alternate" type="application/rss+xml" title="Ludum Dare » Comments Feed" href="http://ludumdare.com/compo/comments/feed/">
+<script type="text/javascript" async="" src="./Ludum Dare 35 _ Ludum Dare_files/ga.js"></script><script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/ludumdare.com\/compo\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./Ludum Dare 35 _ Ludum Dare_files/wp-emoji-release.min.js" type="text/javascript"></script>
+<style type="text/css">img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-0.1em!important;background:none!important;padding:0!important;}</style>
+<link rel="stylesheet" id="compo2-style-css" href="./Ludum Dare 35 _ Ludum Dare_files/style(1).css" type="text/css" media="all">
+<link rel="stylesheet" id="steam-style-css" href="./Ludum Dare 35 _ Ludum Dare_files/style(2).css" type="text/css" media="all">
+<link rel="stylesheet" id="broadcast-style-css" href="./Ludum Dare 35 _ Ludum Dare_files/style(3).css" type="text/css" media="all">
+<script type="text/javascript" src="./Ludum Dare 35 _ Ludum Dare_files/jquery.js"></script>
+<script type="text/javascript" src="./Ludum Dare 35 _ Ludum Dare_files/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="./Ludum Dare 35 _ Ludum Dare_files/i-like-this.js"></script>
+<link rel="https://api.w.org/" href="http://ludumdare.com/compo/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://ludumdare.com/compo/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://ludumdare.com/compo/wp-includes/wlwmanifest.xml">
+<meta name="generator" content="WordPress 4.4.2">
+<link rel="canonical" href="http://ludumdare.com/compo/ludum-dare-35/">
+<link rel="shortlink" href="http://ludumdare.com/compo/?p=542293">
+<link rel="alternate" type="application/json+oembed" href="http://ludumdare.com/compo/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fludumdare.com%2Fcompo%2Fludum-dare-35%2F">
+<link rel="alternate" type="text/xml+oembed" href="http://ludumdare.com/compo/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fludumdare.com%2Fcompo%2Fludum-dare-35%2F&amp;format=xml">
+ <link rel="stylesheet" type="text/css" href="./Ludum Dare 35 _ Ludum Dare_files/i-like-this.css" media="screen">
+<script type="text/javascript">var blogUrl = 'http://ludumdare.com/compo'</script>
+ 
+<script type="text/javascript">//<![CDATA[
+	function external_links_in_new_windows_loop() {
+		if (!document.links) {
+			document.links = document.getElementsByTagName('a');
+		}
+		var change_link = false;
+		var force = '';
+		var ignore = '';
+
+		for (var t=0; t<document.links.length; t++) {
+			var all_links = document.links[t];
+			change_link = false;
+			
+			if(document.links[t].hasAttribute('onClick') == false) {
+				// forced if the address starts with http (or also https), but does not link to the current domain
+				if(all_links.href.search(/^http/) != -1 && all_links.href.search('ludumdare.com') == -1) {
+					// alert('Changeda '+all_links.href);
+					change_link = true;
+				}
+					
+				if(force != '' && all_links.href.search(force) != -1) {
+					// forced
+					// alert('force '+all_links.href);
+					change_link = true;
+				}
+				
+				if(ignore != '' && all_links.href.search(ignore) != -1) {
+					// alert('ignore '+all_links.href);
+					// ignored
+					change_link = false;
+				}
+
+				if(change_link == true) {
+					// alert('Changed '+all_links.href);
+					document.links[t].setAttribute('onClick', 'javascript:window.open(\''+all_links.href+'\'); return false;');
+					document.links[t].removeAttribute('target');
+				}
+			}
+		}
+	}
+	
+	// Load
+	function external_links_in_new_windows_load(func)
+	{	
+		var oldonload = window.onload;
+		if (typeof window.onload != 'function'){
+			window.onload = func;
+		} else {
+			window.onload = function(){
+				oldonload();
+				func();
+			}
+		}
+	}
+
+	external_links_in_new_windows_load(external_links_in_new_windows_loop);
+	//]]></script>
+ 
+<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-2932135-5']);
+		_gaq.push(['_trackPageview']);
+		
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+ 
+<script type="text/javascript">
+	(function() {
+		// Zero Pad Digits //
+		function PadZero( num ) {
+			if ( num < 10 ) {
+				return "0" + num;
+			}
+			return num;
+		}
+		
+		// Subtract B - A //
+		function DateDiff( a, b ) {
+			return b.getTime() - a.getTime();
+		}
+
+		var timerHandle = null;
+
+		var clockElm = null;
+
+		var serverTime = 1460941326;
+		var serverClock = new Date(serverTime*1000);
+		var localClock = new Date();
+
+//		// If Clock is Bad //
+//		var clockDiff = DateDiff(localClock,serverClock);
+//		if ( Math.abs(clockDiff) > 45*60*1000 ) {	// If 45 minutes off (cache safe) then Error //
+//			window.addEventListener("load", function(e) {
+//				clockElm = document.getElementsByClassName('clock');
+//				for (var idx = 0; idx < clockElm.length; idx++ ) {
+//					clockElm[idx].innerHTML = '<a href="/compo/faq/">Clock Error</a>';
+//				}
+//			});
+//		}
+//		// If Clock is Okay //
+//		else 
+		{
+			// Store it in Window (global scope) //
+			window.mkClocksUpdate = function(e) {
+				clockElm = document.getElementsByClassName('clock');
+				
+				// If no clocks, bail //
+				if ( clockElm.length === 0 ) {
+					return;
+				}
+				
+				window._mkClocksFunc = function(){
+					var nowClock = new Date();
+					
+					for (var idx = 0; idx < clockElm.length; idx++ ) {
+						var diff = DateDiff(nowClock,new Date(clockElm[idx].getAttribute('title')));
+						
+						if ( diff >= 0 ) {
+							var oneSecond = 1000;
+							var oneMinute = 60*1000;
+							var oneHour = 60*60*1000;
+							var oneDay = 24*60*60*1000;
+							var oneWeek = 7*24*60*60*1000;
+		
+							var diffMS = Math.floor(diff % oneSecond);
+							var diffSeconds = Math.floor(diff / oneSecond) % 60;
+							var diffMinutes = Math.floor(diff / oneMinute) % 60;
+							var diffHours = Math.floor(diff / oneHour) % 24;
+							var diffDays = Math.floor(diff / oneDay) % 7;
+							var diffDaysOnly = Math.floor(diff / oneDay);
+							var diffWeeks = Math.floor(diff / oneWeek);
+							
+							var sep = ":";
+							if ( diffMS >= 500 ) {
+								sep = ";";
+							}
+							
+							var fiveWeek = diffDaysOnly <= (7*5)+1;
+
+							var weekText = diffWeeks + " Weeks, ";
+							if ( diffWeeks == 1 ) {
+								weekText = "1 Week, ";
+							}
+							else if ( diffWeeks == 0 ) {
+								weekText = "";
+							}
+							
+							var dayText = diffDays + " Days" + (fiveWeek ? ", " : "");
+							if ( diffDays == 1 ) {
+								dayText = "1 Day, ";
+							}
+							else if ( diffDays == 0 ) {
+								dayText = "";
+							}
+							
+							var prefixText = clockElm[idx].getAttribute('prefix');
+							if ( prefixText === null ) {
+								prefixText = "";
+							}
+							else {
+								var prefixStyle = clockElm[idx].getAttribute('prefix-style');
+								if ( prefixStyle ) {
+									prefixText = '<span style="' + prefixStyle + '">' + prefixText + "</span>";
+								}
+							}
+							
+							clockElm[idx].innerHTML = 
+								prefixText +
+								weekText +
+								dayText +
+								(fiveWeek ? 
+									PadZero(diffHours) + sep +
+									PadZero(diffMinutes) + sep +
+									PadZero(diffSeconds)
+								: "" );
+						}
+						else {
+							/* Flash on Completion */
+							clockElm[idx].innerHTML = clockElm[idx].getAttribute('msg');
+						}
+					}
+				};
+
+				if ( timerHandle === null ) {
+					timerHandle = setInterval( window._mkClocksFunc,500);
+				}
+			};
+
+			window.mkClocksFocus = function(e) {
+				if ( timerHandle === null ) {
+					timerHandle = setInterval( window._mkClocksFunc,500);
+				}
+			};
+			window.mkClocksBlur = function(e) {
+				if ( timerHandle ) {
+					clearInterval( timerHandle );
+					timerHandle = null;
+				}
+			};
+			
+			window.addEventListener("load", window.mkClocksUpdate);
+			/* In case people want us to be less wasteful */
+			//window.addEventListener("focus", window.mkClocksFocus);
+			//window.addEventListener("blur", window.mkClocksBlur);
+		}
+	})();
+	</script>
+</head>
+<body>
+<div id="page">
+<div id="header">
+<div class="body">
+ 
+<div class="login-nav">
+<div class="login">
+<div class="login-user">
+<div class="avatar" title="Edit your Avatar on Gravatar (Click!)"><a href="http://www.gravatar.com/" onclick="javascript:window.open(&#39;http://www.gravatar.com/&#39;); return false;"><img alt="" src="./Ludum Dare 35 _ Ludum Dare_files/cacd0e72acb5b17d7eef969cdc306617" srcset="http://0.gravatar.com/avatar/cacd0e72acb5b17d7eef969cdc306617?s=104&amp;d=mm&amp;r=g 2x" class="avatar avatar-52 photo" height="52" width="52"></a></div>
+<div class="info">
+<div class="headline">Welcome <a href="http://ludumdare.com/compo/wp-admin/profile.php" title="Edit your Profile"><strong>CoderCameron</strong></a></div>
+<div class="action"><a href="http://ludumdare.com/compo/wp-admin/post-new.php" title="Make a new Blog Post">+<strong>New POST</strong></a></div>
+</div>
+</div>
+</div>
+<div class="login-search">
+ 
+<a href="http://ludumdare.com/compo/wp-admin/index.php" title="Dashboard"><img src="./Ludum Dare 35 _ Ludum Dare_files/dashboard.png"></a>
+</div>
+</div>
+<a href="http://ludumdare.com/compo/" title="Home"><img src="./Ludum Dare 35 _ Ludum Dare_files/LDLogo2015.png" width="386" height="64"></a>
+</div>
+</div>
+<div id="status">
+<div class="section toppad botpad round-bot">
+<div class="biggercell bigcell cell hidden" style="background-image:url(&#39;http://ludumdare.com/compo/wp-content/uploads/2011/11/jam2.jpg&#39;);">
+<div class="overlay"></div>
+<div class="botleft hidden"><img src="./Ludum Dare 35 _ Ludum Dare_files/PlayRate80Star.png" alt="PlayRate80Star" width="300" height="80" class="aligncenter size-full wp-image-419119"></div>
+<div class="name" style="color:#0FA;text-shadow:0 1px #084;font-size:22px">Ludum Dare 35</div>
+<div class="desc">Coming April 15th-18th Weekend</div>
+<div class="clock botright" title="Sat, 16 Apr 2016 01:00:00 UTC" msg="GO! GO! GO!" style="color:#F80;">GO! GO! GO!</div>
+<div class="name botright hidden">Growing, Two button controls</div>
+<p> <a href="http://ludumdare.com/compo/2016/04/13/welcome-to-ludum-dare-35/" title=""><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a>
+</p></div>
+<div class="biggercell bigcell cell" style="background-image:url(&#39;http://ludumdare.com/compo/wp-content/uploads/2011/11/jam2.jpg&#39;);">
+<div class="overlay"></div>
+<div class="botleft hidden"><img src="./Ludum Dare 35 _ Ludum Dare_files/PlayRate80Star.png" alt="PlayRate80Star" width="300" height="80" class="aligncenter size-full wp-image-419119"></div>
+<div class="name" style="color:#F62;text-shadow:0 1px #820;font-size:22px">Ludum Dare 35</div>
+<div class="desc">The Theme is:</div>
+<div class="clock botright hidden" title="Sat, 18 Apr 2016 01:00:00 UTC" msg="GO! GO! GO!" style="color:#F80;">GO! GO! GO!</div>
+<div class="name botright">Shapeshift</div>
+<p> <a href="https://twitter.com/ludumdare/status/721141090993049600" title="" onclick="javascript:window.open(&#39;https://twitter.com/ludumdare/status/721141090993049600&#39;); return false;"><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a>
+</p></div>
+<div class="bigcell cell hidden" style="background-image:url(&#39;http://ludumdare.com/compo/wp-content/uploads/2011/11/judgement.jpg&#39;);">
+<div class="overlay"></div>
+<div class="botleft hidden"><img src="./Ludum Dare 35 _ Ludum Dare_files/PlayRate80Star.png" alt="PlayRate80Star" width="300" height="80" class="aligncenter size-full wp-image-419119"></div>
+<div class="name" style="color:#F2C;text-shadow:0 1px #802;font-size:22px">Judging ends in</div>
+<div class="desc hidden">Ends in</div>
+<div class="clock botright" title="Tue, 5 Jan 2016 02:00:00 UTC" msg="RESULTS SOON" style="color:#08F;font-size:22px">RESULTS SOON</div>
+<p> <a href="http://ludumdare.com/compo/ludum-dare-35/" title=""><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a>
+</p></div>
+<div class="bigcell cell hidden" style="background-image:url(&#39;http://ludumdare.com/compo/wp-content/uploads/2011/11/jam3.jpg&#39;);">
+<div class="overlay"></div>
+<div class="botleft"></div>
+<div class="name" style="color:#FC2;text-shadow:0 1px #860;font-size:22px">Submission Hour ends</div>
+<div class="desc">Submission Hour! Submit now!</div>
+<div class="clock botright" title="Tue, 19 Arp 2016 02:00:00 UTC" msg="GO! GO! GO!" style="color:#F80;">GO! GO! GO!</div>
+<p> <a href="http://ludumdare.com/compo/ludum-dare-35/?action=edit" title=""><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a>
+</p></div>
+<div class="bigcell cell" style="background-image:url(&#39;http://ludumdare.com/compo/wp-content/uploads/2011/11/jam3.jpg&#39;);">
+<div class="overlay"></div>
+<div class="botleft"></div>
+<div class="name" style="color:#FC2;text-shadow:0 1px #860;font-size:22px">Submission Hour ends</div>
+<div class="desc">Compo Submission Hour! Submit now!</div>
+<div class="clock botright" title="Mon, 18 Apr 2016 02:00:00 UTC" msg="GO! GO! GO!" style="color:#F80;">00;57;11</div>
+<p> <a href="http://ludumdare.com/compo/ludum-dare-35/?action=edit" title=""><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a>
+</p></div>
+<div class="biggercell bigcell cell" style="display:none;background-image:url(&#39;http://ludumdare.com/compo/wp-content/uploads/2011/11/jam2.jpg&#39;);">
+<div class="overlay"></div>
+<div class="botleft"></div>
+<div class="name" style="color:#0FA;text-shadow:0 1px #084;font-size:22px">Ludum Dare 34</div>
+<div class="desc">Coming December 11th-14th Weekend</div>
+<div class="clock botright" title="Fri, 12 Dec 2015 02:00:00 UTC" msg="Results Soon" style="color:#8F0;font-size:26px;">Results Soon</div>
+<p> <a href="http://ludumdare.com/compo/" title=""><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a>
+</p></div>
+<div class="bigcell cell hidden" style="background-image:url(&#39;http://ludumdare.com/compo/wp-content/uploads/2011/11/jam3.jpg&#39;);">
+<div class="overlay"></div>
+<div class="botleft"></div>
+<div class="name" style="color:#FC2;text-shadow:0 1px #860;font-size:20px">October Challenge ends</div>
+<div class="desc">Make a game – Take it to Market – Earn $1</div>
+<div class="clock botright" title="Sun, 1 Nov 2015 11:00:00 UTC" msg="Ended. Submit Now!" style="color:#F80;font-size:24px">Ended. Submit Now!</div>
+<p> <a href="http://ludumdare.com/compo/2015/09/28/october-challenge-2015/" title=""><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a>
+</p></div>
+<div class="bigcell cell" style="background-image:url(&#39;http://ludumdare.com/compo/wp-content/uploads/2015/11/twobuttons.jpeg&#39;);">
+<div class="overlay"></div>
+<div class="botleft"></div>
+<div class="name" style="color:#0AF;text-shadow:0 1px #048;font-size:22px">The Jam ends in</div>
+<div class="desc">Solo and Teams, relaxed, 72 hours. Submit here!</div>
+<div class="clock botright" title="Tue, 19 Apr 2016 01:00:00 UTC" msg="GO! GO! GO!" style="color:#8F0;">23;57;11</div>
+<p> <a href="http://ludumdare.com/compo/ludum-dare-35/?action=edit" title=""><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a>
+</p></div>
+<div class="bigcell cell hidden" style="background-image:url(&#39;http://ludumdare.com/compo/wp-content/uploads/2015/11/growing.jpeg&#39;);">
+<div class="overlay"></div>
+<div class="botleft"></div>
+<div class="name" style="color:#0FA;text-shadow:0 1px #084;font-size:22px">The Compo ends in</div>
+<div class="desc">Solo, from scratch, with source, in 48 hours.</div>
+<div class="clock botright" title="Mon, 18 Apr 2016 01:00:00 UTC" msg="GO! GO! GO!" style="color:#8F0;">GO! GO! GO!</div>
+<p> <a href="http://ludumdare.com/compo/ludum-dare-35/?action=edit" title=""><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a>
+</p></div>
+<div class="bigcell cell" style="display:none;background-image:url(&#39;http://ludumdare.com/compo/wp-content/uploads/2011/11/finalfull.jpg&#39;);">
+<div class="overlay" style="display:none;"></div>
+<div class="name" style="color:#F84;text-shadow:0 1px #028;display:none;">Theme Voting</div>
+<div class="desc" style="display:none;">4 Rounds of voting, new rounds every day! The top 20 themes will be your Final Round!</div>
+<div class="clock botright" title="Tue, 30 Dec 2014 02:00:00 UTC" msg="Results Soon" style="color:#F8C;display:none;">Results Soon</div>
+<p> <a href="http://ludumdare.com/compo/ld33-theme-voting-round-5-of-5/"><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a>
+</p></div>
+<div class="bigcell cell" style="display:none;background-image:url(&#39;http://ludumdare.com/compo/wp-content/uploads/2011/11/judgement.jpg&#39;);">
+<div class="overlay"></div>
+<div class="botleft hidden"><img src="./Ludum Dare 35 _ Ludum Dare_files/PlayRate80Star.png" alt="PlayRate80Star" width="300" height="80" class="aligncenter size-full wp-image-419119"></div>
+<div class="name" style="color:#F2C;text-shadow:0 1px #802;font-size:22px">Ludum Dare 34 Results</div>
+<div class="desc hidden">See the winners!</div>
+<div class="clock botright hidden" title="Tue, 12 May 2015 01:00:00 UTC" msg="RESULTS SOON" style="color:#08F;">RESULTS SOON</div>
+<p> <a href="http://ludumdare.com/compo/ludum-dare-34/" title=""><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a>
+</p></div>
+</div>
+<div class="section fatsection">
+<div class="group-right">
+<div class="free link hidden" title="I dunno! Click! There might be treasure!">What’s going on?<a href="http://ludumdare.com/compo/2014/11/25/whats-going-on/"><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a></div>
+<div class="free link">Rules<a href="http://ludumdare.com/compo/rules/"><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a></div>
+<p></p></div>
+<div class="group-left">
+<div class="free link hidden">LD34 Announcement<a href="http://ludumdare.com/compo/2015/11/17/ludum-dare-34-in-3-5-weeks-theme-selection-micro-site-is-live/"><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a></div>
+<div class="free link hidden">Future<a href="http://ludumdare.com/compo/2015/07/20/starship-the-new-ludum-dare-in-great-detail-2/"><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a></div>
+<div class="free link">Real World Gatherings<a href="http://ludumdare.com/compo/2016/03/02/real-world-gatherings-for-ludum-dare-35/"><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a></div>
+<div class="free link">Deals<a href="http://ludumdare.com/compo/2016/03/02/ludum-deals-for-ludum-dare-35/"><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a></div>
+<div class="free link" style="display:none">Jam Assets<a href="http://ludumdare.com/compo/2015/04/03/free-jam-assets-for-ludum-dare-32-jam-only/"><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a></div>
+<div class="free link" title="Wallpapers">Wallpapers<a href="http://ludumdare.com/compo/2016/03/02/wallpapers-for-ludum-dare-35/"><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a></div>
+<div class="free link" title="">Tools<a href="http://ludumdare.com/compo/tools/"><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a></div>
+<div class="free link" title="">MiniLD #66<a href="http://ludumdare.com/compo/2016/03/02/minild-66-announcement-2/"><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a></div>
+<div class="free link hidden" title="">MiniLD #66<a href="http://ludumdare.com/compo/2015/11/05/mini-ludum-dare-63/"><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a></div>
+<div class="free link hidden" title="">#HardDare<a href="http://ludumdare.com/compo/2015/11/05/how-i-ended-2014-and-plan-to-end-2015-a-non-jam/"><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a></div>
+<div class="free link" title="">Warmup<a href="http://ludumdare.com/compo/2016/04/08/warmup-weekend-for-ludum-dare-35/"><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a></div>
+<div class="free link hidden" title="">Rules<a href="http://ludumdare.com/compo/rules/"><img src="./Ludum Dare 35 _ Ludum Dare_files/_.png" class="blank"></a></div>
+<p></p></div>
+</div>
+<style>.important{background:#C30!important;color:#FF0!important;}.important a{color:#000!important;}.important a:hover{color:#FFF!important;}</p>
+<p>.announce {
+  background:#FC2;
+  color:#620;
+}
+.announce a {
+  color:#C40;
+}
+.announce a:hover {
+  color:#FFF;
+}</p>
+<p>/*
+.announce a {
+  color:#880;
+}
+.announce a:hover {
+  color:#FFF;
+}*/
+</style>
+<div class="section toppad round-top"></div>
+<div class="announce botpad" style="display:none;">The Ludum Dare 32 Theme is: <strong>An Unconventional Weapon</strong></div>
+<div class="announce botpad" style="background:#4AF;color:#028;">Keep working until the deadline! <strong>Submission Hour</strong> begins soon! An extra hour to submit your game!</div>
+<div class="announce botpad hidden" style="background:#4AF;color:#026;"><strong>Submission Hour!</strong> <a href="http://ludumdare.com/compo/ludum-dare-34/?action=edit" style="color:#0F8;"><strong>Submit</strong></a> your Compo games now! Jammers keep working! Voting will start soon!</div>
+<div class="announce botpad hidden" style="background:#4AF;color:#026;"><strong>Submission Hour!</strong> <a href="http://ludumdare.com/compo/ludum-dare-34/?action=edit" style="color:#0F8;"><strong>Submit</strong></a> your Jam games now!</div>
+<div class="announce botpad hidden" style="background:#CCF;color:#026;">Join us on <a href="http://twitter.com/ludumdare" style="color:#08F;" onclick="javascript:window.open(&#39;http://twitter.com/ludumdare&#39;); return false;"><strong>Twitter</strong></a> and <a href="http://ludumdare.com/compo/irc/" style="color:#08F;"><strong>IRC</strong></a> (<strong>#ludumdare</strong> on Afternet.org) for the <strong>Theme Announcement!</strong></div>
+<div class="section toppad" style=""></div>
+<div class="announce botpad hidden" style="background:#889;color:#EEE;">Thanks everyone for coming out! For the next 3 weeks, we’ll be <strong>Playing and Rating</strong> the games you created. Be sure to <strong>Play and Rate</strong> games if you want a score at the end (we recommend 25 games). And with the holidays coming up, we encourage you to do it sooner than later. We’ll be back in the new year with the results, and the date for Ludum Dare 35.</div>
+<div class="announce botpad" style="background:#6F0;color:#260;"><strong>New Server</strong>: Welcome to the New (less expensive) Server! Find any problems? <a href="http://ludumdare.com/compo/2016/03/18/moving-servers-march-18th-20th-weekend/">Report them here</a>.</div>
+<div class="section toppad" style=""></div>
+		</div>
+		<!-- Force Clock Update -->
+		<script type="text/javascript">mkClocksUpdate();</script>
+<div id="body">
+	<div id="content" class="fullcolumn botpad">
+
+		<div class="ld-post post" id="post-542293">
+			<div class="entry body">
+				<div style="font-size: 18px;text-align:center;"><strong><a href="http://ludumdare.com/compo/2016/04/13/welcome-to-ludum-dare-35/">Ludum Dare 35</a></strong> — April 15th-18th, 2016 — <strong>Theme:</strong> <strong><a href="https://twitter.com/ludumdare/status/721141090993049600" onclick="javascript:window.open(&#39;https://twitter.com/ludumdare/status/721141090993049600&#39;); return false;">Shapeshift</a></strong></div>
+<p></p>
+<div class="ld-post post">
+<div class="entry body">
+<div id="compo2"><p><a href="http://ludumdare.com/compo/ludum-dare-35/?action=preview">Browse entries.</a></p><h3>Edit Entry</h3>
+	<style>
+		.edit form {
+			text-align:left;
+		}
+		.edit h2 {
+			margin-top:10px;
+			margin-bottom:0;
+		}
+		
+		.edit .hidden {
+			display:none;
+		}
+		
+		.edit .button {
+			font-size:24px;
+			font-weight:bold;
+		}
+	</style>
+	<div class="edit"><div><br>
+<hr><strong>IMPORTANT NOTE</strong>: If you want to place in the final results, you <strong>NEED</strong> votes. The easiest way to get votes is by rating other games. Judging lasts for 3 weeks following the end of Ludum Dare. For best effect, <strong>rate 20 games</strong> as soon as possible. Rating more games is encouraged.<p></p>
+<p><strong>MORE TIPS AND DETAILS AT THE <a href="http://ludumdare.com/compo/ludum-dare-35/?action=edit#faq">BOTTOM OF THIS PAGE</a></strong><br>
+</p><hr></div><form method="post" action="http://ludumdare.com/compo/ludum-dare-35/?action=save" enctype="multipart/form-data"><input type="hidden" name="formdata" value="1"><h2>Name <span style="color:#f00;font-weight:bold;">*</span></h2><input type="text" name="title" value="Infinite Vertices" size="60">	<script>
+		function c2_addclass( el, className ) {
+			if (el.classList)
+				el.classList.add(className);
+			else
+				el.className += " " + className;
+		}
+		
+		function c2_removeclass( el, className ) {
+			if (el.classList)
+				el.classList.remove(className);
+			else
+				el.className = el.className.replace(new RegExp("(^|\\b)" + className.split(" ").join("|") + "(\\b|$)", "gi"), " ");
+		}
+	
+		// Toggles the disabled property of an id by checkboxes with same basename //
+		function c2_edit_typechange( name ) {
+			var target = document.getElementById("etype_"+name);
+			var requirement = document.querySelectorAll("." + name + "_REQ");
+			
+			var disable = false;
+			
+			for ( var idx = 0; idx < requirement.length; idx++ ) {
+				if ( !requirement[idx].checked ) {
+					disable = true;
+					break;
+				}
+			}
+			
+			target.disabled = disable;
+		}
+		
+		// Returns which radio button is set, matching a class //
+		function c2_which_radio( classname ) {
+			var radio = document.querySelectorAll("." + classname);
+			
+			for ( var idx = 0; idx < radio.length; idx++ ) {
+				if ( radio[idx].checked ) {
+					return radio[idx];
+				}
+			}
+			return null;
+		}
+		
+		function c2_on_submission_type_changed( e ) {
+			c2_show_optouts( e.getAttribute("value") );
+			c2_toggle_options( e.getAttribute("value") );
+		}
+		
+		function c2_show_optouts( etype ) {
+			var radio = document.querySelectorAll(".optout-type");
+			for ( var idx = 0; idx < radio.length; idx++ ) {
+				c2_addclass( radio[idx], "hidden" );
+			}
+			
+			var el;
+			if ( etype ) {
+				el = document.getElementById(etype+"-submission-type");
+			}
+			else {
+				el = document.getElementById("no-submission-type");
+			}
+
+			if ( el ) {
+				c2_removeclass( el, "hidden" );
+			}
+		}
+
+		var c2_params = {
+"compo_title":"Compo","open_title":"Jam",		};
+		
+		function c2_toggle_options( etype ) {
+			var option = document.querySelectorAll(".entry-option");
+			for ( var idx = 0; idx < option.length; idx++ ) {
+				c2_removeclass( option[idx], "hidden" );
+			}
+			
+			//var etype = c2_which_radio("etype").getAttribute("value");
+			
+			if ( c2_params[etype+"_judged"] === "0") {
+				c2_addclass(document.getElementById("show-judged"),"hidden");
+			}
+			if ( c2_params[etype+"_rating"] === "0") {
+				c2_addclass(document.getElementById("show-rating"),"hidden");
+			}
+			if ( c2_params[etype+"_settings"] === "0") {
+				c2_addclass(document.getElementById("show-settings"),"hidden");
+			}
+		}
+	</script>
+<h2>Submission Type <span style="color:#f00;font-weight:bold;">*</span></h2><input type="radio" name="etype" id="etype_open" class="etype" value="open" onchange="c2_on_submission_type_changed(this);"> Jam<div><i>Anything goes in the Jam, but we ask that you opt-out of Graphics and Audio if you didn't make them, or didn't make them within the 72 hours</i></div><br><input type="radio" name="etype" id="etype_compo" class="etype" value="compo" onchange="c2_on_submission_type_changed(this);" checked=""> Compo<div><i>By entering the Compo, you have read <a href="http://ludumdare.com/compo/rules/"><strong>The Rules</strong></a>, and you agree that:</i></div><input type="checkbox" class="compo_REQ" name="REQ[compo][0]" value="1" onchange="c2_edit_typechange(&quot;compo&quot;);" checked="">I worked SOLO on my game<br><input type="checkbox" class="compo_REQ" name="REQ[compo][1]" value="1" onchange="c2_edit_typechange(&quot;compo&quot;);" checked="">I created all of the Art, Sound and Music myself<br><input type="checkbox" class="compo_REQ" name="REQ[compo][2]" value="1" onchange="c2_edit_typechange(&quot;compo&quot;);" checked="">I created them within the 48 hours between the start and end<br><input type="checkbox" class="compo_REQ" name="REQ[compo][3]" value="1" onchange="c2_edit_typechange(&quot;compo&quot;);" checked="">I have included source code<br><div style="margin-top:10px;margin-bottom:10px;color:#F00"><strong>IMPORTANT:</strong> You must click all checkboxes.</div><div id="show-judged" class="entry-option "><h2>I would like to be judged in these categories</h2>If you feel the game doesn't deserve to be judged in a category, deselect it.<br><br><div id="no-submission-type" class="optout-type hidden">Please select a Submission Type</div><div id="open-submission-type" class="optout-type hidden"><input type="checkbox" class="" name="OPTOUT[open][Overall(Jam)]" value="1" checked="">Overall(Jam)<br><input type="checkbox" class="" name="OPTOUT[open][Innovation(Jam)]" value="1" checked="">Innovation(Jam)<br><input type="checkbox" class="" name="OPTOUT[open][Fun(Jam)]" value="1" checked="">Fun(Jam)<br><input type="checkbox" class="" name="OPTOUT[open][Theme(Jam)]" value="1" checked="">Theme(Jam)<br><input type="checkbox" class="" name="OPTOUT[open][Graphics(Jam)]" value="1" checked="">Graphics(Jam)<br><input type="checkbox" class="" name="OPTOUT[open][Audio(Jam)]" value="1" checked="">Audio(Jam)<br><input type="checkbox" class="" name="OPTOUT[open][Humor(Jam)]" value="1" checked="">Humor(Jam)<br><input type="checkbox" class="" name="OPTOUT[open][Mood(Jam)]" value="1" checked="">Mood(Jam)<br></div><div id="compo-submission-type" class="optout-type "><input type="checkbox" class="" name="OPTOUT[compo][Overall]" value="1" checked="">Overall<br><input type="checkbox" class="" name="OPTOUT[compo][Innovation]" value="1" checked="">Innovation<br><input type="checkbox" class="" name="OPTOUT[compo][Fun]" value="1" checked="">Fun<br><input type="checkbox" class="" name="OPTOUT[compo][Theme]" value="1" checked="">Theme<br><input type="checkbox" class="" name="OPTOUT[compo][Graphics]" value="1" checked="">Graphics<br><input type="checkbox" class="" name="OPTOUT[compo][Audio]" value="1" checked="">Audio<br><input type="checkbox" class="" name="OPTOUT[compo][Humor]" value="1" checked="">Humor<br><input type="checkbox" class="" name="OPTOUT[compo][Mood]" value="1" checked="">Mood<br></div></div><div id="show-rating" class="entry-option "><h2>Content Rating</h2><input type="checkbox" class="" name="SETTING[NSFW]" value="1">This Entry may not be suitable for kids.<br><input type="checkbox" class="" name="SETTING[NSFL]" value="1">This Entry contains material or subject matter that may be offensive.<div style="margin-top:10px;margin-bottom:10px"><strong>NOTE:</strong> We may enable these if we get complaints about an Entry.<br>The first lets people omit kid-unfriendly games, and the 2nd brings up a warning.</div></div><div id="show-settings" class="entry-option "><h2>Settings</h2><input type="checkbox" class="" name="SETTING[ANONYMOUS]" value="1">I would like to allow anonymous feedback. I understand this means my Entry will be criticized more harshly, and I can take it.</div><br><h2>Description <span style="color:#f00;font-weight:bold;">*</span></h2><textarea name="notes" rows="12" cols="80" style="margin: 0px; height: 710px; width: 640px;">This is a short, minimalist platformer where you play as a shape, who needs to find his lover. Unfortunately every jump he makes he looses a vertex, thus once he is a triangle he cannot jump, or else he will cease to exist.
+
+
+
+Some information for you note. This game was made in 48 hours (More like 18 hours) In C++. With a game engine that I made, and have never tested. Expect bugs and crashes. But at least maybe an interesting story. (Though I doubt it, because I think this is one of the worst game I have ever made).
+
+Enjoy :(</textarea><h2>Screenshot(s) <span style="color:#f00;font-weight:bold;">*</span></h2>You must include <i>at least</i> one screenshot in <strong>PNG</strong>, <strong>JPEG</strong> or <strong>GIF</strong> formats.<br>Images larger than 900x500 pixels will be resized. GIFs wont animate. Images <strong>MUST</strong> be less than <strong>4096x2160</strong> pixels.<br><br><table><tbody><tr><td>1.</td><td><input type="file" name="shot0"></td></tr><tr><td></td><td align="left"><a href="http://ludumdare.com/compo/wp-content/compo2/542293/59325-shot0-1460928654.png" target="_blank"><img src="./Ludum Dare 35 _ Ludum Dare_files/59325-shot0-1460928654.png-crop-180-140.jpg" width="180" height="140"></a></td></tr><tr><td>2.</td><td><input type="file" name="shot1"></td></tr><tr><td></td><td align="left"><a href="http://ludumdare.com/compo/wp-content/compo2/542293/59325-shot1-1460928654.png" target="_blank"><img src="./Ludum Dare 35 _ Ludum Dare_files/59325-shot1-1460928654.png-crop-180-140.jpg" width="180" height="140"></a></td></tr><tr><td>3.</td><td><input type="file" name="shot2"></td></tr><tr><td></td><td align="left"><a href="http://ludumdare.com/compo/wp-content/compo2/542293/59325-shot2-1460928654.png" target="_blank"><img src="./Ludum Dare 35 _ Ludum Dare_files/59325-shot2-1460928654.png-crop-180-140.jpg" width="180" height="140"></a></td></tr><tr><td>4.</td><td><input type="file" name="shot3"></td></tr><tr><td></td><td align="left"><a href="http://ludumdare.com/compo/wp-content/compo2/542293/59325-shot3-1460928654.png" target="_blank"><img src="./Ludum Dare 35 _ Ludum Dare_files/59325-shot3-1460928654.png-crop-180-140.jpg" width="180" height="140"></a></td></tr></tbody></table><!--<h2>Customize Thumbnail</h2>Game thumbnails are <strong>180x140</strong> pixels (9:7). Images will be scaled and cropped to 180x140 pixels.<br />If you don't set a thumbnail, Screenshot #1 will be used instead.<br /><strong>TIP</strong>: If you use an exactly <strong>180x140 GIF</strong>, it will animate on hover. Max file size <strong>1 MB</strong>.<br /><span style='color:#F0F;'><strong>*WORK IN PROGRESS*</strong></span> This feature is unfinished. Come back later to set these.<br /><br />--><!--<table><tr><td><input type='file' name='SETTING[thumb]'></td></tr></table>--><br><h2>Downloads and Links <span style="color:#f00;font-weight:bold;">*</span></h2>You must host downloads elsewhere. Need a host? <a href="http://ludumdare.com/compo/faq/" target="_blank">See the <strong>FAQ</strong></a>.<br><strong>TIP:</strong> Hosting on a Gaming website? <strong>DON'T FORGET</strong> to link to your Ludum Dare page! Fellow LD'ers can't rate you if they can't find you!<br><br><table><tbody><tr><th></th><th>Link Name</th><th></th><th>URL (don't forget the http://)</th></tr><tr><td></td><td><input type="text" name="links[0][title]" size="15" value="Web"></td><td></td><td><input type="text" name="links[0][link]" size="45" value=""></td></tr><tr><td></td><td><input type="text" name="links[1][title]" size="15" value="Windows"></td><td></td><td><input type="text" name="links[1][link]" size="45" value="https://codercameron.itch.io/infinite-verticies"></td></tr><tr><td></td><td><input type="text" name="links[2][title]" size="15" value="OS/X"></td><td></td><td><input type="text" name="links[2][link]" size="45" value=""></td></tr><tr><td></td><td><input type="text" name="links[3][title]" size="15" value="Linux"></td><td></td><td><input type="text" name="links[3][link]" size="45" value=""></td></tr><tr><td></td><td><input type="text" name="links[4][title]" size="15" value="Source"></td><td></td><td><input type="text" name="links[4][link]" size="45" value="https://www.dropbox.com/s/9nwz0ybckxi6v8h/InfiniteVertecies.zip?dl=0"></td></tr></tbody></table><h2>Embed URL</h2>For web games, we can embed the game in an HTML iframe for play right on the Entry page.<br><br><table><tbody><tr><th></th><th>URL (don't forget the http://)</th><th></th><th>Width</th><th></th><th>Height</th></tr><tr><td></td><td><input type="text" name="SETTING[EMBED][url]" size="45" value=""></td><td></td><td><input type="text" name="SETTING[EMBED][width]" size="5" value="800"></td><td></td><td><input type="text" name="SETTING[EMBED][height]" size="5" value="450"></td></tr><tr><td></td><td></td><td></td><td>Max: 900</td><td></td><td>Max: 600</td><td></td></tr></tbody></table><input type="checkbox" class="" name="SETTING[EMBED][fullscreen]" value="1">Enable Fullscreen Button.<br>People have a variety of screen sizes, so games running Fullscreen should be able to support a variety of 16:9, 16:10, and 4:3 resolutions.<br><br><p><input type="submit" class="button" value="Save Changes"></p></form><p><span style="color:#f00;font-weight:bold;">*</span> - required field</p></div></div>
+<hr>
+<h2><a name="faq"></a>Mini Submission FAQ</h2>
+<p><strong>TEAMS</strong>: Teams entering the Jam should pick a single representative to submit your game, or create a team specific account you can share. We currently <strong>do not</strong> support Team Voting, but sharing an account and together playing and rating games is acceptable.</p>
+<p><strong>CAN I ENTER BOTH EVENTS?</strong>: You should pick 1 event, whichever you think it’ll do better in. If the idea is strong, and everything plays well enough, you can go Compo. If you’re a perfectionist, and would prefer people to play a more polished game, do the Jam. Historically, more games are entered in the Compo, but with more people and more time, Jam games have the potential to be better (that doesn’t mean they are). Many solo participants do enter the Jam.</p>
+<p>If you made 2 games, unfortunately, the website doesn’t support multiple submissions per user. To submit your 2nd game, you will have to make a 2nd account. <strong>Only</strong> do this if you made 2 games. Alternatively, if one game is better than the other, then consider just entering the better game.</p>
+<p><strong>CAN I KEEP WORKING UNTIL THE DEADLINE?</strong>: Yes! Immediately after the 48 or 72 hours, we do something called <strong>Submission Hour</strong>. As the name suggests, it’s an extra hour for you to package, upload, and submit your games. If there were catastrophic issues trying submitting your game, or you misunderstood how submissions work, that’s okay. It happens. We’re flexible. If you need advice, check with <a href="http://ludumdare.com/compo/irc/">the folks on IRC</a>. If you need an admin, <a href="http://ludumdare.com/compo/contact/">get in touch</a>.</p>
+<p><strong>CAN I KEEP WORKING ON MY GAME?</strong>: Oh definitely! You should! But for the sake of judging, keep the Compo or Jam version around. You can include a link to the Post-Compo/Post-Jam version of your game on your games page, but sure your main links are the original version.</p>
+<p><a name="ports"></a><strong>PORTS</strong>: Ports to other platforms <strong>can be done after the deadline</strong>. That said, the sooner you finish your port, the sooner people can play your game, improving your chances of placing in the final results. For best results, provide a Web version of your game, or a Windows version with no dependencies. Also be sure to rate <em>at least</em> 20 games to improve your visibility (Coolness).</p>
+<p><strong>MY GAME CRASHES, IS UNBEATABLE, OR I MADE A TYPO</strong>: We allow you to fix crashes, win condition, or tiny bugs after the deadline. In a sense, this is like “porting” to support more players. We leave this open to interpretation, but generally speaking your game should be identical to the game you submitted. No new features, just fixing mistakes you should have caught had you been better rested.</p>
+<p><strong>MY GAME DOESN’T SHOW UP</strong>: If you can’t find your game, it’s usually because the URL to your downloads are missing ‘<strong>http://</strong>‘. Fix your URLs (http://mysite.com/mygame.zip) and you will show up. Alternatively, if you just posted it, wait a minute. The cache may not have refreshed yet.</p>
+<p><strong>NOT LOGGED IN?</strong>: If you get a message about not being logged in, even though you are, it’s because your web browser cached the non-logged in page. You can fix this by either refreshing your cache or clearing your cache. CTRL+F5 in many browsers. Chrome is a bit more work. Press F12 to enable Developer Mode, then you can right click on the refresh button and select “Empty Cache and Hard Reload”. This option is unavailable if you are not in Developer Mode.
+</p></div>
+</div>
+				<br>
+			</div>
+		</div>
+				</div>
+</div>
+		<div id="footer">
+			<div class="text">All posts, images, and comments are owned by their creators.</div>
+			<div class="query">14 queries executed in 0.041 seconds.</div>
+		</div>
+	</div>
+<script type="text/javascript" src="./Ludum Dare 35 _ Ludum Dare_files/wp-embed.min.js"></script>
+
+
+<p>[cache: unable to cache, user logged in]</p></body></html>
